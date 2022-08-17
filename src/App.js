@@ -6,7 +6,7 @@ import axios from 'axios';
 
 function App() {
   let locKey,locName,temp;
-  const apiKey="roYNvMRnI40DTAXQ3L7TlxZjqZpjuVNM";
+  const apiKey="TeG6MVq2UH3cgqhHNJkoHOfBPGiqa99K";
   const[data1,setDataName]=useState();
   const[data2,setDataTemp]=useState();
   const[inputCity,setInputCity]=useState("")
