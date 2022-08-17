@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.weatherBg{
+    background:url("https://cdn.pixabay.com/photo/2015/08/30/11/17/shore-914149_960_720.jpg");
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weatherResultBox{
+    margin: auto;
+    width: 500px;
+    height: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weathericon{
+    margin-top: -33rem;
+    width: 100px;
+    height: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.weatherCity{
+    font-size: 35px;
+    margin-top:-14rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.waetherTemp{
+    font-size: 55px;
+    font-weight: 700;
 }
