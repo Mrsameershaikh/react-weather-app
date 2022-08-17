@@ -19,14 +19,14 @@ function App() {
         setDataName(res.data[0].LocalizedName);
         locKey=res.data[0].Key;
         locName=res.data[0].LocalizedName;
-        console.log("Location key response",locKey)
-        console.log("Location key response",locName)
+        // console.log("Location key response",locKey)
+        // console.log("Location key response",locName)
         const apiURL="http://dataservice.accuweather.com/currentconditions/v1/"+locKey+"?apikey="+ apiKey
 
         axios.get(apiURL).then((res)=>{
           setDataTemp(res.data[0].Temperature.Metric.Value);
           temp=res.data[0].Temperature.Metric.Value;
-          console.log("temp details",temp);
+          // console.log("temp details",temp);
           setDataTemp(temp);
         });
 
